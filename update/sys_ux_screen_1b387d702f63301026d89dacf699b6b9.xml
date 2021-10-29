@@ -4,12 +4,12 @@
         <app_config display_value="NeedIt Experience Config">451b742c2f63301026d89dacf699b6a5</app_config>
         <description/>
         <event_mappings>[ {
-  "eventMappingId" : "ckvcjbcrsaaaabbcddbhhxpjaaddffdaah",
+  "eventMappingId" : "ckvckccgbbgaaaaeekddbhhxaaxyatqgg",
   "isConfiguration" : false,
   "offRowStorageId" : null,
-  "sourceEventApiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_179ef9682f67301026d89dacf699b6f3",
+  "sourceEventApiName" : "x_58872_needit.SCREEN_STATUS_CHANGED_RELAY_db38b5302f63301026d89dacf699b625",
   "sourceEventDefinition" : {
-    "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_179ef9682f67301026d89dacf699b6f3",
+    "apiName" : "x_58872_needit.SCREEN_STATUS_CHANGED_RELAY_db38b5302f63301026d89dacf699b625",
     "id" : null,
     "type" : "UXEVENT"
   },
@@ -19,38 +19,20 @@
     "clientScript" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "apiName" : "sn_canvas_core.SCREEN_STATUS_CHANGED",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
-          "route" : {
+          "screenKey" : {
             "type" : "EVENT_PAYLOAD_BINDING",
             "binding" : {
-              "address" : [ "route" ]
+              "address" : [ "screenKey" ]
             }
           },
-          "fields" : {
+          "status" : {
             "type" : "EVENT_PAYLOAD_BINDING",
             "binding" : {
-              "address" : [ "fields" ]
-            }
-          },
-          "params" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "params" ]
-            }
-          },
-          "redirect" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "redirect" ]
-            }
-          },
-          "passiveNavigation" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "passiveNavigation" ]
+              "address" : [ "status" ]
             }
           },
           "title" : {
@@ -59,35 +41,61 @@
               "address" : [ "title" ]
             }
           },
-          "multiInstField" : {
+          "icon" : {
             "type" : "EVENT_PAYLOAD_BINDING",
             "binding" : {
-              "address" : [ "multiInstField" ]
+              "address" : [ "icon" ]
             }
           },
-          "targetRoute" : {
+          "message" : {
             "type" : "EVENT_PAYLOAD_BINDING",
             "binding" : {
-              "address" : [ "targetRoute" ]
+              "address" : [ "message" ]
             }
           },
-          "external" : {
+          "isDirty" : {
             "type" : "EVENT_PAYLOAD_BINDING",
             "binding" : {
-              "address" : [ "external" ]
+              "address" : [ "isDirty" ]
+            }
+          },
+          "hasError" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasError" ]
+            }
+          },
+          "hasUpdate" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasUpdate" ]
+            }
+          },
+          "dirtyModalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "dirtyModalId" ]
+            }
+          },
+          "tooltipPreview" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "tooltipPreview" ]
             }
           }
         }
       },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+      "sysId" : "f71f58643791ec0183da148626eb757d"
     },
     "operation" : null,
-    "targetId" : "ckvcjbcrraaaabbbddbhhxjjqjicbbvy",
+    "targetId" : "ckvckccgbbfaaaaeejddbhhxffmtaetgb",
     "type" : "EVENT"
   } ]
 } ]</event_mappings>
-        <macroponent display_value="Home">179ef9682f67301026d89dacf699b6f3</macroponent>
+        <macroponent display_value="Record">db38b5302f63301026d89dacf699b625</macroponent>
         <macroponent_config>{
+  "views" : "",
+  "selectedTabIndex" : 0,
   "label" : "",
   "bare" : true,
   "scrollable" : "y",
@@ -95,27 +103,27 @@
   "interceptNotifications" : false,
   "propagateNotifications" : false
 }</macroponent_config>
-        <name>Home default</name>
+        <name>Record default</name>
         <order>0</order>
         <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
         <required_translations>[]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Home">1f9eb9682f67301026d89dacf699b66d</screen_type>
+        <screen_type display_value="Record">1338b5302f63301026d89dacf699b621</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 21:41:50</sys_created_on>
+        <sys_created_on>2021-10-29 15:52:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9f9ef9682f67301026d89dacf699b6f5</sys_id>
+        <sys_id>1b387d702f63301026d89dacf699b6b9</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Home default</sys_name>
+        <sys_name>Record default</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_screen_9f9ef9682f67301026d89dacf699b6f5</sys_update_name>
+        <sys_update_name>sys_ux_screen_1b387d702f63301026d89dacf699b6b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-29 15:33:09</sys_updated_on>
+        <sys_updated_on>2021-10-29 15:54:14</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=9f9ef9682f67301026d89dacf699b6f5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b387d702f63301026d89dacf699b6b9"/>
 </record_update>
